@@ -1,21 +1,33 @@
 # flight-look-to-book
-**Data analysis** for flight look-to-book statistics, **pre-processing** for the machine learning forecast model
+This project contains two parts:
+1. **Data analysis** for flight look-to-book statistics, as preprocessing for the machine learning forecast models
+2. **Forecast models** (attempt)
 
-The confluence page: 
+Confluence page: (coming)
+
 
 ### Description:
+It contains links to the raw datasets, including 'bookings' and 'searches' of the flights worldwide in 2013.
 
+```flight-look-to-book-preprocessing_v0.ipynb``` is the initial version of work, reflecting most of the progress history.
 
-### Contents:
+```flight-look-to-book-preprocessing_v1.ipynb``` serves as a cleaner version of solutions to all the 4 questions.
+
+```bonus-flight-ltb-forecast-naive-bayesian_v0.ipynb``` shows the skeleton of forecast, based on the principle of Naive Bayesian. However, it is incomplete yet due to computing power and timing issue.
+
+```bonus-flight-ltb-forecast-xgboost_v0.ipynb``` provides an insight to the Extreme Gradient Boosting Classifier. However, it is incomplete yet due to computing power and timing issue.
 
 
 ### Prerequisites:
+python --version
+Python 3.6.8 :: Anaconda, Inc.
 
-### How it works:
+pandas (a python library) version:
+0.24.2
 
-##### 1. Preparation:
+uname -a
+Linux 4.15.0-46-generic #49-Ubuntu SMP x86_64 x86_64 x86_64 GNU/Linux
 
-##### 2. Training the machine learning model
 
-##### 3. Forecast
-
+### Usage:
+```flight-look-to-book-preprocessing_v1.ipynb``` is runnable (yet recommend to SKIP the "Explore" section in solution 4 since it's dependent on hardware performance).
